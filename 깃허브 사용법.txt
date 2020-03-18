@@ -1,0 +1,24 @@
+1. 시작
+git init
+git remote add origin 주소(자신or 상대방의 깃헙 주소)
+
+git repository를 만드는 과정.
+
+2. 
+push=> 올리는 것
+pull => 땡기는 것
+
+★push전엔 pull이 있다고 반드시 생각!!!
+
+pull
+-git pull origin master : (앞전에)지정 해놓은 Repository에서 끌어온다.
+
+push 
+-git status 현재 git과의 상태를 check
+-git add . => 변경된 파일들을 모두 Tracking
+-git commit -m "message" 인식 할 수 있는 commit을 달아준다.
+-git push origin master 실제로 Git에 PUSH 요청.
+
+
+
+
